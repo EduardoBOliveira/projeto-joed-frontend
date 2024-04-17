@@ -16,6 +16,8 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  font-family: 'Lilita One', sans-serif; 
+  font-family: 'Krona One', sans-serif;
 }
 
 @layer utilities {
