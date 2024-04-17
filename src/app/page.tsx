@@ -6,7 +6,7 @@ import { mdiBookOpenVariant } from "@mdi/js";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-24">
+    <main className="flex flex-col items-center justify-center min-h-screen p-24">
       <Head>
         <link rel="preconnect" href="https://fonts.google.com/" />
         <link
@@ -18,35 +18,36 @@ export default function Home() {
           rel="stylesheet"
         />
       </Head>
-      <h1 className="text-8xl mt-8 font-lilita-one">JOED</h1>
-      <h2 className="text mt-4 font-lilita-one">
-        Monte seu negócio de forma simplificada
-      </h2>
-
-      <div className="flex flex-wrap justify-between mt-32">
+      <div className="text-center">
+        <h1 className="text-8xl mt-8 font-lilita-one text-violet-950">JOED</h1>
+        <h2 className="mt-4 font-lilita-one text-violet-950">
+          Monte seu negócio de forma simplificada
+        </h2>
+      </div>
+      <div className="flex flex-wrap justify-between mt-80">
         <a
-          href="/produtos"
+          href="produtos"
           className="w-52 h-52 mx-24 mb-4 rounded-lg inline-block"
         >
-          <fieldset className="bg-black text-white w-full h-full flex flex-col justify-center items-center">
+          <fieldset className="bg-violet-900 text-violet-50 w-full h-full flex flex-col justify-center items-center rounded-3xl shadow-2xl">
             <p className="text-3xl font-krona-one">Produtos</p>
             <Icon path={mdiCartPlus} size={5} />
           </fieldset>
         </a>
         <a
-          href="/financas"
+          href="financas"
           className="w-52 h-52 mx-24 mb-4 rounded-lg inline-block"
         >
-          <fieldset className="bg-black text-white w-full h-full flex flex-col justify-center items-center">
+          <fieldset className="bg-violet-900 text-violet-50 w-full h-full flex flex-col justify-center items-center rounded-3xl shadow-2xl">
             <p className="text-3xl font-krona-one">Finanças</p>
             <Icon path={mdiCurrencyUsd} size={5} />
           </fieldset>
         </a>
         <a
-          href="/sobre"
+          href="sobre"
           className="w-52 h-52 mx-24 mb-4 rounded-lg inline-block"
         >
-          <fieldset className="bg-black text-white w-full h-full flex flex-col justify-center items-center">
+          <fieldset className="bg-violet-900 text-violet-50 w-full h-full flex flex-col justify-center items-center rounded-3xl shadow-2xl">
             <p className="text-3xl font-krona-one">Sobre</p>
             <Icon path={mdiBookOpenVariant} size={5} />
           </fieldset>
