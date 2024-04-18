@@ -28,20 +28,20 @@ export default function Home() {
         </h2>
       </div>
       <div className="flex flex-wrap justify-between mt-32">
-        <Link href="/produtos" passHref>
-          <fieldset className="bg-violet-900 text-violet-50 w-52 h-52 mx-24 mb-4 rounded-lg inline-block flex flex-col justify-center items-center rounded-3xl shadow-2xl">
-            <p className="text-3xl font-krona-one">Produtos</p>
+        <Link href="/loja" passHref>
+          <fieldset className="bg-violet-900 text-violet-50 w-52 h-52 mx-24 mb-4  linline-block flex flex-col justify-center items-center rounded-3xl shadow-2xl">
+            <p className="text-3xl font-krona-one">Loja</p>
             <Icon path={mdiCartPlus} size={5} />
           </fieldset>
         </Link>
         <Link href="/financas" passHref>
-          <fieldset className="bg-violet-900 text-violet-50 w-52 h-52 mx-24 mb-4 rounded-lg inline-block flex flex-col justify-center items-center rounded-3xl shadow-2xl">
+          <fieldset className="bg-violet-900 text-violet-50 w-52 h-52 mx-24 mb-4  linline-block flex flex-col justify-center items-center rounded-3xl shadow-2xl">
             <p className="text-3xl font-krona-one">Finanças</p>
             <Icon path={mdiCurrencyUsd} size={5} />
           </fieldset>
         </Link>
         <Link href="/sobre" passHref>
-          <fieldset className="bg-violet-900 text-violet-50 w-52 h-52 mx-24 mb-4 rounded-lg inline-block flex flex-col justify-center items-center rounded-3xl shadow-2xl">
+          <fieldset className="bg-violet-900 text-violet-50 w-52 h-52 mx-24 mb-4  linline-block flex flex-col justify-center items-center rounded-3xl shadow-2xl">
             <p className="text-3xl font-krona-one">Sobre</p>
             <Icon path={mdiBookOpenVariant} size={5} />
           </fieldset>
