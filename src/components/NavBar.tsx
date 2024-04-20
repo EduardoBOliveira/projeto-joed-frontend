@@ -5,7 +5,7 @@ interface NavBarProps {
 }
 
 export default function NavBar({active}: NavBarProps) {
-  const classActive = "border-b-4 pb-4 border-pink-600"
+  const classActive = ""
 
   return (
     <nav className="flex w-full justify-between items-center px-6 py-4">
