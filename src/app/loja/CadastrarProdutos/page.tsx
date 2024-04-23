@@ -2,7 +2,7 @@
 "use client"
 
 import React, { useState, ChangeEvent, FormEvent } from 'react';
-import { FormControl, TextField, Button } from '@mui/material';
+import { FormControl, TextField, Button, Input } from '@mui/material';
 
 import NavBar from '@/components/NavBar';
 import Cardapio from '@/components/Cardapio';
@@ -35,10 +35,13 @@ export default function ProdutosPage() {
         </div>
 
         <div className='mr-96'>
-        <FormularioCadastro/>
-        <FormularioCadastro/>
-        <FormularioCadastro/>
+            <fieldset className='bg-white  w-52 h-52 mx-24 mb-4 '>
+              <Input type="file" accept="image/*" fullWidth margin="normal" className=' '/> 
+
+            </fieldset>
+          
         </div>
+
       </div>
 
         <Button type="submit" variant="contained" color="primary" className=''>
