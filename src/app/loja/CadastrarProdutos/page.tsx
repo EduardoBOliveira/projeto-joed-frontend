@@ -10,6 +10,21 @@ import Rodape from '@/components/Rodape';
 import FormularioCadastro from '@/components/FornularioCadastro';
 
 export default function ProdutosPage() {
+<<<<<<< HEAD
+=======
+  const [nome, setNome] = useState('');
+
+  const handleInputChange = (event: ChangeEvent<HTMLInputElement>) => {
+    setNome(event.target.value);
+  };
+
+  const handleSubmit = async (event: FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    console.log('Nome inserido:', nome);
+    setNome('');
+  };
+
+>>>>>>> a438c1aa66b4a21e26dbe3462a63378743bbf79e
   return (
     <main className="flex min-h-screen flex-col">
       <NavBar active="loja"/>
