@@ -6,8 +6,9 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
-  --gradient-start-color: #9C27B0;
-  --gradient-end-color: #001839;
+  --gradient-start-color: #ef745c;
+  --gradient-medium-color: #ef745c;
+  --gradient-end-color: #34073d;
 }
 
 body {

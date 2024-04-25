@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function Cardapio() {
   return (
     <div className="flex flex-1 items-start">
-      <fieldset className="bg-gradient-to-b from-purple-500 to-blue-500 text-white text-2xl flex flex-col h-full w-64 rounded-md">
+      <fieldset className="bg-gradient-to-b from-yellow-100 to-yellow-600 text-black text-2xl flex flex-col h-full w-64 rounded-md">
         <nav className="">
           <ul className="flex flex-col gap-20 mt-20 mb-96 ml-2">
             <li className="hover:bg-gray-300"> {/* Adicione a classe hover:text-gray-300 aqui */}
