@@ -6,6 +6,7 @@ import FormularioCadastro from '@/components/FornularioCadastro';
 import Rodape from '@/components/Rodape';
 import NavBar from '@/components/NavBar';
 import Cardapio from '@/components/Cardapio';
+import Link from 'next/link';
 
 export default function ProdutosPage() {
   const categorias = ['Categoria A', 'Categoria B', 'Categoria C']
@@ -52,9 +53,11 @@ export default function ProdutosPage() {
             <div className='flex flex-col gap-2'>
               <div className='flex justify-between'>
               <h2>Categoria</h2>
-              <Button variant="outlined" size="small">
-              Add Categoria
-              </Button>
+              <Link href="/loja/CadastroCategoria">
+                <Button variant="outlined" size="small">
+                  Add Categoria
+                </Button>
+              </Link>
               </div> 
               <FormControl fullWidth>
                 <InputLabel id="categoria-label">Selecione uma categoria</InputLabel>
